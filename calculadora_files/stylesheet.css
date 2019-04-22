@@ -1,0 +1,85 @@
+﻿@font-face {
+ font-family: burst;
+ src: url('../font/burst.ttf');
+}
+
+#calculator{
+ background: none repeat scroll 0 0 #0c3459;
+ border: 1px solid #bbb;
+ border-radius: 5px;
+ box-shadow: 0 2px 2px #FFFFFF;
+ padding: 10px;
+ position: absolute;
+ left: 0px;
+ top: 0px;
+}
+
+
+.calculator .calc {
+ margin-left: -9px;
+ width: 309px;
+}
+
+.calculator h6 {
+ color: #ffffff;
+ font-family: calibri !important;
+ font-size: 22px;
+ margin-bottom: 10px;
+ text-align: center;
+}
+.calculator > span {
+ color: #ffffff;
+ display: block;
+ font: 12px arial;
+ padding-left: 10px;
+}
+.calculator li {
+ border-top: 3px solid #FFFFFF;
+ padding: 15px 0 0 10px;
+}
+.calculator li:first-child {
+ margin-top: 14px;
+ padding-bottom: 15px;
+ padding-left: 35px;
+}
+.calculator li label {
+ font: bold 12px arial;
+ margin-left: 24px;
+}
+.calculator li label:first-child {
+ margin-left: 0;
+}
+.calculator li input {
+ border: 1px solid #cecece;
+ color: #000000;
+ font: bold 16px arial;
+ height: 28px;
+ text-align: center;
+ width: 38px;
+}
+.calculator li small {
+ color: #FFFFFF;
+ font: 12px arial;
+}
+.calculator .titulo {
+ display: inline-block;
+ margin-right: 10px;
+ text-align: right;
+ width: 80px;
+}
+.calculator li span, .calculator li {
+ font-size: 11px;
+}
+.calculator li .input {
+ margin-right: 10px;
+}
+.calculator .saudacao > span {
+ color: #FFFFFF;
+ display: block;
+ font-size: 15px;
+ margin-left: -15px;
+ text-align: center;
+ font-family: calibri;
+}
+
+

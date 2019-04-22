@@ -1,0 +1,116 @@
+$(function(){
+$('#rovercal').click(function(){
+	$('#calculator').slideToggle( "slow" );
+	})
+})
+jQuery(document).ready(function(){
+	jQuery('.calcField').keyup(function(){
+		var mult = 1.77;
+		var wHeight = jQuery('.wHeight').val().replace(',','.');
+		var wWidth = jQuery('.wWidth').val().replace(',','.');
+		var mtotal = wHeight * wWidth;
+		var mod = mtotal%mult;
+		var result;
+		if(mod==0){
+			result = mtotal;
+		} else {
+			result = mtotal+(mult-mod);
+		}
+		if(mtotal % 1 != 0)
+		{
+			jQuery('.calculator .calc .m2').text(mtotal.toFixed(4));
+		}
+		else
+		{
+			jQuery('.calculator .calc .m2').text(mtotal);
+		}
+
+		jQuery('.calculator .calc .unity').val(Math.round(result/1.8));
+	});
+	jQuery('.calculator .open').click(function(){
+		jQuery('.calculator .calc').slideToggle();
+	});
+	
+	jQuery('.calcField').keyup(function(){
+		var mult = 5.6;
+		var wHeight = jQuery('.wHeight').val().replace(',','.');
+		var wWidth = jQuery('.wWidth').val().replace(',','.');
+		var mtotal = wHeight * wWidth;
+		var mod = mtotal%mult;
+		var result;
+		if(mod==0){
+			result = mtotal;
+		} else {
+			result = mtotal+(mult-mod);
+		}
+		if(mtotal % 1 != 0)
+		{
+			jQuery('.calculator .calc .m3').text(mtotal.toFixed(4));
+		}
+		else
+		{
+			jQuery('.calculator .calc .m3').text(mtotal);
+		}
+
+		jQuery('.calculator .calc .unity3').val(Math.round(result/5.6));
+	});
+	jQuery('.calculator .open').click(function(){
+		jQuery('.calculator .calc').slideToggle();
+	});
+	
+	jQuery('.calcField').keyup(function(){
+		var mult = 5;
+		var wHeight = jQuery('.wHeight').val().replace(',','.');
+		var wWidth = jQuery('.wWidth').val().replace(',','.');
+		var mtotal = wHeight * wWidth;
+		var mod = mtotal%mult;
+		var result;
+		if(mod==0){
+			result = mtotal;
+		} else {
+			result = mtotal+(mult-mod);
+		}
+		if(mtotal % 1 != 0)
+		{
+			jQuery('.calculator .calc .m4').text(mtotal.toFixed(4));
+		}
+		else
+		{
+			jQuery('.calculator .calc .m4').text(mtotal);
+		}
+
+		jQuery('.calculator .calc .unity4').val(Math.round(result/5));
+	});
+	jQuery('.calculator .open').click(function(){
+		jQuery('.calculator .calc').slideToggle();
+	});
+	
+	jQuery('.calcField').keyup(function(){
+		var mult = 15.5;
+		var wHeight = jQuery('.wHeight').val().replace(',','.');
+		var wWidth = jQuery('.wWidth').val().replace(',','.');
+		var mtotal = wHeight * wWidth;
+		var mod = mtotal%mult;
+		var result;
+		if(mod==0){
+			result = mtotal;
+		} else {
+			result = mtotal+(mult-mod);
+		}
+		if(mtotal % 1 != 0)
+		{
+			jQuery('.calculator .calc .m5').text(mtotal.toFixed(4));
+		}
+		else
+		{
+			jQuery('.calculator .calc .m5').text(mtotal);
+		}
+
+		jQuery('.calculator .calc .unity5').val(Math.round(result/15.5));
+	});
+	jQuery('.calculator .open').click(function(){
+		jQuery('.calculator .calc').slideToggle();
+	});
+	
+});
+

@@ -1,0 +1,137 @@
+﻿/* Page */
+body,html,div,blockquote,img,label,p,h1,h2,h3,h4,h5,h6,pre,ul,ol,li,dl,dt,dd,form,a,fieldset,input,th,td{border:0;outline:none;margin:0;padding:0;}
+ul, ul li{list-style: none;}
+ul.text {margin-bottom: 1em; line-height: 1.5em;}
+.text-center {text-align: center;}
+body {font: normal 13px Arial, sans-serif;}
+h2 {font: normal 26px Arial, sans-serif; padding: 20px 0; margin: 0 0 30px 0;}
+.wrap {width: 960px; margin: 0 auto;}
+.demo-container {padding: 20px; float: left; width: 260px;}
+.demo-container h4 {font-size: 14px; margin: 0 0 5px 0;}
+.clear {clear: both;}
+
+.dcjq-parent-li{
+ float: left;
+ width: 100%;
+}
+
+.dcjq-count {float: right;}
+/* box */
+.box {
+ margin-bottom: 20px;
+}
+.kdo-box{
+ 
+ box-shadow: 0 2px 2px #dddddd;
+ float: left;
+ width: 180px; 
+}
+.kdo-box .kdo-box-heading {
+ background: none repeat scroll 0 0 #ede5df;
+ border-bottom: 1px solid #dddddd;
+ color: #5e4433;
+ font-family: Calibri;
+ font-size: 19px;
+ font-weight: bold;
+ line-height: 14px;
+ padding: 9px 10px;
+}
+.kdo-box .kdo-box-content {
+ background: none repeat scroll 0 0 #f2ece8;
+ box-shadow: 0 2px 2px #dddddd;
+ float: left;
+ padding: 0 !important;
+ width: 100%;
+}
+
+/* box category */
+ul.kdo-category, ul.kdo-category ul {
+ float: left;
+ position: relative;
+ width: 100%;
+ z-index: 20;
+}
+ul.kdo-category > li:first-child {
+
+}
+ul.kdo-category > li {
+ float: left;
+ width: 100%;
+}
+ul.kdo-category > li + li {
+ border-top: 1px solid #EEEEEE;
+}
+
+.dcjq-parent-li ul{
+ background: #F5F1F2;
+ float: left;
+}
+.dcjq-parent-li ul li{
+ background: #F5F1F2;
+ float: left;
+ width: 166px;
+}
+
+ul.kdo-category > li > a {
+ color: #5e4433;
+ display: block;
+ font-size: 14px;
+ line-height: 14px;
+ padding: 8px 10px;
+ position: relative;
+ text-decoration: none;
+ z-index: 6;
+}
+
+ul.kdo-category > li.dcjq-parent-li a{
+ float: left;
+ width: 140px;
+}
+
+ul.kdo-category > li.newClarrow > span.dcjq-icon{
+ background: url("../image/plus.gif") no-repeat right 0 !important;
+}
+ul.kdo-category > li.dcjq-parent-li > span.dcjq-icon{
+ background: url("../image/plus.gif") no-repeat left 0;
+ width: 16px;
+ height: 16px;
+ float: right;
+font-size: 0; 
+ margin-top: 7px;
+ cursor: pointer;
+}
+
+
+ 
+ul.kdo-category > li > span.dcjq-icon{
+ background: url("../image/plus.gif") no-repeat left 0;
+ width: 16px;
+ height: 16px;
+ float: right;
+ position: absolute;
+ margin-top: 7px;
+}
+
+ul.kdo-category > li ul {
+ display: none;
+}
+ul.kdo-category > li a.active {
+ font-weight: bold;
+}
+ul.kdo-category > li a.active + ul {
+ display: block;
+}
+ul.kdo-category > li ul > li {
+ padding: 5px 5px 5px 10px;
+}
+ul.kdo-category > li ul > li > a {
+ text-decoration: none;
+ display: block;
+}
+ul.kdo-category > li ul > li > a.active {
+ font-weight: bold;
+}
+ul.kdo-category li:hover {
+background: none repeat scroll 0 0 #e0d7d0;
+ 
+}
